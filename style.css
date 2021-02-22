@@ -109,92 +109,66 @@ nav {
     size: 40%;
     
 } */
-.container-news-big2 {
+/* .container-news-grid {
     display: flex;
     flex-direction: row;
     justify-items: center;
     
     
-}
-.news-card-one{
+} */
+.news-card-one, .news-card-two, .news-card-three, .news-card-four, .news-card-five, .news-card-six {
     background-color: #fdfdfd;
     overflow:hidden;
     margin: 50px auto;
     transition: 0.3s;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 80%;
-    object-fit: fill;
+    
+  
 }
 
-.news-card-two {
-    background-color: #fdfdfd;
-    overflow:hidden;
-    margin: 50px auto;
-    transition: 0.3s;
-    display:flex;
-    flex-direction: column;
-    width: 80%;
-    font-size: 100%;
-    
-    
-}
 
-.news-img-one {
-    object-fit: fill;
-}
-.news-img-two {
-    
-    
-}
-.news-txt-one, .news-txt-two {
+.news-txt-one, .news-txt-two, .news-txt-three, .news-txt-four, .news-txt-five, .news-txt-six {
     padding-left: 15px;
 }
 
 
-.news-cat-one, .news-cat-two h3{
+.news-cat-one, .news-cat-two,.news-cat-three, .news-cat-four,.news-cat-five, .news-cat-six h3{
     color: #696b6d;
     font-weight: 600;
 }
 
-.news-para-one {
+.news-para-one, .news-para-two, .news-para-three, .news-para-four, .news-para-five, .news-para-six {
     color: #2f3133;
     font-size: 34px;
     font-weight: 600;
 }
-.news-para-two p {
-    color: #2f3133;
-    font-size: 34px;
-    font-weight: 600;
-    fon
+.news-img-one, .news-img-two, .news-img-three, .news-img-four, .news-img-five, .news-img-six {
+    max-width: 100%;
+    height: auto;
 }
-
-/* .top-nav {
-    background-color: transparent; */
-    /* position: right; : */
-/*     
-    text-align:center;
-    padding: 14px 8px; */
-    /* text-decoration:none;
-    
-    
-} */
 
 
 
 footer {
     background-color: #98c5e9;
+    flex-direction: row;
 }
-/* .footer-container {
-   
-} */
+
 
 .footer-left {
-    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
     
 }
 .footer-right {
-    align-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+    align-items: flex-end;
 }
 
 
@@ -208,6 +182,10 @@ footer h6 {
     text-decoration:none;
 }
 
+/* img {
+    max-width: 100%;
+    height: auto;
+  } */
 
 * {
     font-family: Gotham,sans-serif;
